@@ -52,11 +52,11 @@ A powerful Python-based web scraping and content extraction tool for vendor rese
 
 ## Configuration
 
-The tool uses environment variables for configuration. A `.env` file has been created with default settings:
+The tool uses environment variables for configuration. Create a `.env` file with your settings:
 
 ```env
 # API Keys
-GLADIA_API_KEY=YOUR_API_KEY_HERE
+GLADIA_API_KEY=your_api_key_here
 
 # Configuration
 MAX_CONCURRENT_REQUESTS=5
