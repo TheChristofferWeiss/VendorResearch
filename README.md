@@ -55,14 +55,13 @@ A powerful Python-based web scraping and content extraction tool for vendor rese
 The tool uses environment variables for configuration. Create a `.env` file with your settings:
 
 ```env
-# API Keys
-GLADIA_API_KEY=your_api_key_here
-
 # Configuration
 MAX_CONCURRENT_REQUESTS=5
 REQUEST_DELAY=1
 USER_AGENT=VendorResearchBot/1.0
 ```
+
+**Note:** No API keys are required for this tool. It uses open-source libraries (trafilatura, BeautifulSoup, curl) for web scraping.
 
 ## Usage
 
